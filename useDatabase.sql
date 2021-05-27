@@ -19,4 +19,6 @@ CREATE TABLE album (
 	id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
     release_year INT,
+    PRIMARY KEY(id),
+    FOREIGN KEY(band_id) REFERENCES bands(id)
 );
