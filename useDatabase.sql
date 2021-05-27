@@ -7,6 +7,11 @@ ALTER TABLE test
 ADD another_column VARCHAR(255);
 DROP TABLE test;
 
+# Create a table called bands 
+CREATE DATABASE crypto_company;
+USE crypto_company;
 CREATE TABLE bands (
-	
+	id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    PRIMARY KEY(id)
 );
