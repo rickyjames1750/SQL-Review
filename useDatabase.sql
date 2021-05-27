@@ -6,3 +6,7 @@ CREATE TABLE test (
 ALTER TABLE test 
 ADD another_column VARCHAR(255);
 DROP TABLE test;
+
+CREATE TABLE bands (
+	
+);
