@@ -76,3 +76,9 @@ SELECT * FROM albums;
 
 SELECT * FROM bands 
 JOIN albums ON bands.id = albums.bands_id;
+
+SELECT * FROM bands 
+INNER JOIN albums ON bands.id = albums.bands_id;
+
+SELECT * FROM albums 
+RIGHT JOIN bands ON bands.id = albums.bands_id;
