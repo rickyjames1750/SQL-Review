@@ -60,3 +60,6 @@ WHERE release_year < 2000;
 
 SELECT * FROM albums
 WHERE name LIKE '%er%' OR band_id = 2;
+
+SELECT * FROM albums
+WHERE release_year = 1984 AND band_id = 1; 
