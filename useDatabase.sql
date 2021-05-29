@@ -59,4 +59,4 @@ SELECT * FROM albums
 WHERE release_year < 2000; 
 
 SELECT * FROM albums
-WHERE name LIKE '%er%';
+WHERE name LIKE '%er%' OR band_id = 2;
