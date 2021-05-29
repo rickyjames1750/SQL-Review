@@ -66,3 +66,6 @@ WHERE release_year = 1984 AND band_id = 1;
 
 SELECT * FROM albums
 WHERE release_year BETWEEN 2000 AND 2018;
+
+SELECT * FROM albums 
+WHERE release_year IS NULL;
