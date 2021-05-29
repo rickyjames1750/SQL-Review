@@ -84,3 +84,6 @@ SELECT * FROM albums
 RIGHT JOIN bands ON bands.id = albums.bands_id;
 
 SELECT SUM(release_year) FROM albums;
+
+SELECT band_id, COUNT(band_id) FROM albums 
+GROUP BY band_id;
