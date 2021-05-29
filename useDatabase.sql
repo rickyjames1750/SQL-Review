@@ -39,3 +39,12 @@ SELECT id AS 'ID', name AS 'Band Name'
 FROM bands;
 
 SELECT * FROM bands ORDER BY  name;
+
+INSERT INTO albums (name, release_year, band_id)
+VALUES	('The Number of the Beasts', 1985, 1),
+		('Power Slave', 1984, 1),
+        ('Nightmare', 2018, 2),
+        ('Nightmare', 2010, 3),
+        ('Test Album', NULL, 3);
+        
+SELECT * FROM albums;
