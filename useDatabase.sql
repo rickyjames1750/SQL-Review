@@ -72,3 +72,7 @@ WHERE release_year IS NULL;
 
 DELETE FROM albums WHERE id = 5; 
 
+SELECT * FROM albums; 
+
+SELECT * FROM bands 
+JOIN albums ON bands.id = albums.bands_id;
