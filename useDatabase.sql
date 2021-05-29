@@ -48,3 +48,5 @@ VALUES	('The Number of the Beasts', 1985, 1),
         ('Test Album', NULL, 3);
         
 SELECT * FROM albums;
+
+SELECT DISTINCT name FROM albums; 
