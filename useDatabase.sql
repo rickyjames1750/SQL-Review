@@ -69,3 +69,6 @@ WHERE release_year BETWEEN 2000 AND 2018;
 
 SELECT * FROM albums 
 WHERE release_year IS NULL;
+
+DELETE FROM albums WHERE id = 5; 
+
