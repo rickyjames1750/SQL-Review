@@ -28,3 +28,5 @@ VALUES ('Iron Maiden');
 
 INSERT INTO bands (name)
 VALUES ('Deuce'), ('Avenged Sevenfold'), ('Ankor');
+
+SELECT * FROM bands;
