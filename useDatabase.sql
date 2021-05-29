@@ -30,3 +30,5 @@ INSERT INTO bands (name)
 VALUES ('Deuce'), ('Avenged Sevenfold'), ('Ankor');
 
 SELECT * FROM bands;
+
+SELECT * FROM bands LIMIT 2;
