@@ -37,3 +37,5 @@ SELECT name FROM bands;
 
 SELECT id AS 'ID', name AS 'Band Name'
 FROM bands;
+
+SELECT * FROM bands ORDER BY  name;
