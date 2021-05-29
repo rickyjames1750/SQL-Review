@@ -82,3 +82,5 @@ INNER JOIN albums ON bands.id = albums.bands_id;
 
 SELECT * FROM albums 
 RIGHT JOIN bands ON bands.id = albums.bands_id;
+
+SELECT SUM(release_year) FROM albums;
